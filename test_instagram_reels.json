@@ -1,0 +1,1029 @@
+{
+  "hashtags": [
+    "fitness",
+    "india"
+  ],
+  "requested_limit": 5,
+  "returned_count": 5,
+  "actors_used": {
+    "discovery": "apify/instagram-hashtag-scraper",
+    "profiles": "instagram-scraper/instagram-profile-scraper",
+    "transcripts": "apify/instagram-reel-scraper"
+  },
+  "analysis_settings": {
+    "candidate_limit": 20,
+    "transcript_candidate_limit": 5,
+    "min_india_score": 6,
+    "transcript_analysis_enabled": true
+  },
+  "analysis_stats": {
+    "candidate_count": 20,
+    "profile_enriched_count": 20,
+    "transcript_enriched_count": 5,
+    "filtered_count": 5,
+    "warnings": []
+  },
+  "items": [
+    {
+      "inputUrl": "https://www.instagram.com/explore/tags/india",
+      "id": "3895278985068056337",
+      "type": "Video",
+      "shortCode": "DYOz5lOBo8R",
+      "caption": "ഫസ്റ്റ് പന്തിക്ക് ഗുലാബ് ജാം തീർന്ന് 😂📈\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#viral #trending #explorepage #explore #instagram #fyp #instagood #love #reels #like #tiktok #follow #foryou #viralpost #viralvideos #photography #likeforlikes #fashion #followforfollowback #memes #instadaily #music #india #indonesia #reelsinstagram #trend #viralreels #likes #foryoupage #photooftheday",
+      "hashtags": [
+        "viral",
+        "trending",
+        "explorepage",
+        "explore",
+        "instagram",
+        "fyp",
+        "instagood",
+        "love",
+        "reels",
+        "like",
+        "tiktok",
+        "follow",
+        "foryou",
+        "viralpost",
+        "viralvideos",
+        "photography",
+        "likeforlikes",
+        "fashion",
+        "followforfollowback",
+        "memes",
+        "instadaily",
+        "music",
+        "india",
+        "indonesia",
+        "reelsinstagram",
+        "trend",
+        "viralreels",
+        "likes",
+        "foryoupage",
+        "photooftheday"
+      ],
+      "mentions": [],
+      "url": "https://www.instagram.com/p/DYOz5lOBo8R/",
+      "commentsCount": 6,
+      "firstComment": "",
+      "latestComments": [],
+      "dimensionsHeight": 1920,
+      "dimensionsWidth": 1080,
+      "displayUrl": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/687342070_978404598104642_5092696352491102600_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=101&ig_cache_key=Mzg5NTI3ODk4NTA2ODA1NjMzNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=jmcIoKY8vD8Q7kNvwEm6kNF&_nc_oc=AdpscdwQ5HEB_6nibVgiyitm0x6LC72x6QYo1D4vZjVdPw0i2XKv9H9pZWgg2p6lUEo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_ss=7a3ba&oh=00_Af6svBzvnDT4vk7bUUBPEvN9btPyO_Xh6rOxdclMeo2XKw&oe=6A08C947",
+      "images": [],
+      "videoUrl": "https://scontent-cph2-1.cdninstagram.com/o1/v/t2/f2/m86/AQOY3OePK936NIEiOKRKPe-R5sGoiNZ8TNqq6ndlmwt15sN2BM-fEwSA10wnFMKCLQukzkx3NJwiuBBfdCOg3dP5zahX6PCHmFhzylA.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_ohc=xOTRbVyQUIMQ7kNvwE32biV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY0NDI0MzMxOTk2MTQ1MSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b7b28e9a65c9ceaf&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81QzQzMUQwQTZBNDJCQzBFMEUzRTc4QzZCMkRDM0U4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzJENERCNjcwRTNEMUNGQTJCMTczOUZEQzdCQUU3OEI3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbW3ZWwx9vrBRUCKAJDMywXQDhdsi0OVgQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af60XBLYEdMtp9kG1CzkD_TE4ZLEC_yIehAOoG4c3AkDHA&oe=6A04E9B1",
+      "likesCount": 890,
+      "videoPlayCount": 4405,
+      "igPlayCount": 4405,
+      "timestamp": "2026-05-12T08:16:45.000Z",
+      "childPosts": [],
+      "ownerFullName": "നസുക്ക്മുക്ക്",
+      "ownerUsername": "nasukkumukk",
+      "ownerId": "47900299369",
+      "productType": "clips",
+      "videoDuration": 24.3799991607666,
+      "taggedUsers": [
+        {
+          "full_name": "عبد المصور",
+          "id": "7390446857",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3396682289066395199",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.2885-19/448992853_999734761822113_2429685490186572630_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=ufkkjCGddgoQ7kNvwEIxayO&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GFUWwxqhF1njQI0DAFbTfY4U_rchbkULAAAB1501500j-ccb7-5&oh=00_Af67wO6VAfeDbd16C43V8SgVlvQqJu_x25QfgtoxCYQF0g&oe=6A08BF14&_nc_sid=472314",
+          "username": "musavir_ibn_shamsudheen"
+        },
+        {
+          "full_name": "Bassil.",
+          "id": "8921495061",
+          "is_private": true,
+          "is_verified": false,
+          "profile_pic_id": "2997316346761692817",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.2885-19/320912248_882829122730492_193966457024366863_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=TB8CsP5PWwQQ7kNvwHBxd8G&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GHi7IBP8_UGs7SIDAA9JRwl3G7ECbkULAAAB1501500j-ccb7-5&oh=00_Af5KLgiOsh6TDZQvXrgcByN2_aOd-wraLrHzgvsErjrIig&oe=6A08CDD9&_nc_sid=472314",
+          "username": "_.bassil"
+        },
+        {
+          "full_name": "🅼🅰🆁🆈 🅲🅷🆁🅸🆂🆃🆈",
+          "id": "23353660476",
+          "is_private": true,
+          "is_verified": false,
+          "profile_pic_id": "3888997736359498365",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/688042688_18116235337780477_5725661915768100325_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=lexkBkfLyjAQ7kNvwEnjiAO&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GMCyAin9zPm7nlxAAOUVVzEto3VPbmNDAQAB1501500j-ccb7-5&oh=00_Af54GnhJQ8RnetD7QW5epre3sGTYloDNesj4eSc2p0lq8A&oe=6A08AEB8&_nc_sid=472314",
+          "username": "_christymary"
+        },
+        {
+          "full_name": "حابش نوشد",
+          "id": "25141732398",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3880166004312522362",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/670646574_18111203170836399_1127282457712489134_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=UOH1GQEnhloQ7kNvwHTArIh&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GC5B_Sev33MXC1hAAK5yezVs6aQPbmNDAQAB1501500j-ccb7-5&oh=00_Af4PyYfnK2fZsHGITqwht2N9kH91L_6i8Y38oISy8gk-jw&oe=6A08B2EE&_nc_sid=472314",
+          "username": "__habish"
+        },
+        {
+          "full_name": "ɴɪᴋʜɪʟ ʀ",
+          "id": "37007464031",
+          "is_private": true,
+          "is_verified": false,
+          "profile_pic_id": "3684864981847651975",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/524616032_18064176035232032_242354027310524300_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=QPv0l8DQVtEQ7kNvwEg9IBN&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GGABRR8geb27RS1AAIynuiu0A10DbmNDAQAB1501500j-ccb7-5&oh=00_Af7H_AJ_p7PgjcnQpZz16hPAq9koooxNXneJuMQpLPHlmg&oe=6A08B1F1&_nc_sid=472314",
+          "username": "nik_h_il___"
+        },
+        {
+          "full_name": "Chinmay Raj N V",
+          "id": "39382266511",
+          "is_private": true,
+          "is_verified": false,
+          "profile_pic_id": "3542639271964674871",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.2885-19/473061486_2281737582205912_8229519079520379883_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=-MEH_aXPeeUQ7kNvwEOzFGg&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GG5YMhzY2w5uOhsIAOujHD8AIDVybkULAAAB1501500j-ccb7-5&oh=00_Af7r2P5yeOPFOyiqD2xt8cqRDsUq6sNAMepYT6gCZDl9dw&oe=6A08CAA1&_nc_sid=472314",
+          "username": "chinmayraj_nv"
+        },
+        {
+          "full_name": "Anamika Manna",
+          "id": "40850122219",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3772787869644556316",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/587560017_18071524925362220_9170413517135442651_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=4JOKUHqYaUkQ7kNvwFtqt2m&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GFF0BSMs0LnH9DNAANtyTMSB2kN-bmNDAQAB1501500j-ccb7-5&oh=00_Af64ZzffxEFgN1kKfJDDAIbVVJ-NIax0RAHsjcmIl_BAAA&oe=6A08C365&_nc_sid=472314",
+          "username": "_knot.6_"
+        },
+        {
+          "full_name": "منور",
+          "id": "42725918872",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3812165842667244810",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/617514600_18070247093430873_1296133283006743671_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=HgH1lJyknQYQ7kNvwFR8ZZ2&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GGiGziRZ6gFDyzJAAHeELYtayvwRbmNDAQAB1501500j-ccb7-5&oh=00_Af7GfuKxGfx46zxqD62badQ9hCt0aKoGknDYt9xz933iDA&oe=6A08DC9D&_nc_sid=472314",
+          "username": "_munavver"
+        },
+        {
+          "full_name": "Manu Krishnan",
+          "id": "43873753247",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3846990742527180154",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/646041762_18077087717457248_5703746252455626644_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=LUXZSrC-oLsQ7kNvwHCbVur&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GKLQgSZg-fj3AzlAAJRHlTL-xidPbmNDAQAB1501500j-ccb7-5&oh=00_Af5qSzM07NXAxoqueh77JT5QAO6pVTF0GvAVNImMKlkDwg&oe=6A08E512&_nc_sid=472314",
+          "username": "manu.krishnan__"
+        },
+        {
+          "full_name": "𝗔𝗞𝗦𝗛𝗔𝗬 ⛰︎",
+          "id": "55680079313",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3733228924425198415",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/555431423_17983075967863314_7274732811757189604_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=pwZYJNsMMekQ7kNvwFV7HfJ&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GP81GyESiggng_M-AOR5qvjyCvVkbmNDAQAB1501500j-ccb7-5&oh=00_Af5wFZQrQeLwHFq5Jr1ZpdCxMW6aluPVvDJQmO_WbZCi9A&oe=6A08B5B2&_nc_sid=472314",
+          "username": "akshfitt"
+        },
+        {
+          "full_name": "Aiswarya Suresh",
+          "id": "63699984693",
+          "is_private": true,
+          "is_verified": false,
+          "profile_pic_id": "3887609775450682310",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/684463533_17957925666120694_8931204697922172055_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MTAuYzIifQ&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=Op-EP7bp0iwQ7kNvwEg0I4M&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GK0VzCj2Yztko8w-AJd082taA-J7bmNDAQAB1501500j-ccb7-5&oh=00_Af4lU2eoyCw1AoeNcH_sHpV-hf2CkAem2Lg2PdroGTQvDg&oe=6A08CE1E&_nc_sid=472314",
+          "username": "ais_warya_suresh"
+        }
+      ],
+      "musicInfo": {
+        "artist_name": "nasukkumukk",
+        "song_name": "Original audio",
+        "uses_original_audio": true,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "26005120115828442"
+      },
+      "ownerProfile": {
+        "username": "nasukkumukk",
+        "full_name": "നസുക്ക്മുക്ക്",
+        "biography": "വാദങ്ങളില്ല.. വിവാദങ്ങളില്ല..",
+        "category_name": "Digital creator",
+        "followers": 130,
+        "is_verified": false,
+        "external_url": null
+      },
+      "transcript": "ഗുലാബ്ജാം എന്നിന് ഉള്ളയാണു.",
+      "indiaOriginAnalysis": {
+        "score": 25,
+        "min_india_score": 6,
+        "has_strong_evidence": true,
+        "strong_signal_sources": [
+          "owner",
+          "bio",
+          "caption",
+          "transcript"
+        ],
+        "weak_signal_sources": [
+          "caption"
+        ],
+        "is_likely_indian_origin": true,
+        "matched_signals": [
+          "owner uses Indic script: Malayalam",
+          "bio uses Indic script: Malayalam",
+          "caption uses Indic script: Malayalam",
+          "caption mentions generic India terms: india",
+          "caption mentions generic Indian location terms: india",
+          "transcript uses Indic script: Malayalam"
+        ],
+        "location_analysis": {
+          "available": false,
+          "score": 0,
+          "strong_signal_count": 0,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        },
+        "caption_analysis": {
+          "available": true,
+          "score": 8,
+          "strong_signal_count": 1,
+          "weak_signal_count": 2,
+          "detected_scripts": [
+            "Malayalam"
+          ],
+          "detected_language_hints": [
+            "Malayalam"
+          ],
+          "identity_keyword_hits": [
+            "india"
+          ],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [
+            "india"
+          ],
+          "location_keyword_hits": [
+            "india"
+          ],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [
+            "india"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "caption uses Indic script: Malayalam",
+            "caption mentions generic India terms: india",
+            "caption mentions generic Indian location terms: india"
+          ]
+        },
+        "bio_analysis": {
+          "available": true,
+          "score": 6,
+          "strong_signal_count": 1,
+          "weak_signal_count": 0,
+          "detected_scripts": [
+            "Malayalam"
+          ],
+          "detected_language_hints": [
+            "Malayalam"
+          ],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": [
+            "bio uses Indic script: Malayalam"
+          ]
+        },
+        "transcript_language_detection": {
+          "available": true,
+          "score": 6,
+          "detected_scripts": [
+            "Malayalam"
+          ],
+          "detected_language_hints": [
+            "Malayalam"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "transcript uses Indic script: Malayalam"
+          ]
+        }
+      }
+    },
+    {
+      "inputUrl": "https://www.instagram.com/explore/tags/india",
+      "id": "3895271080507895892",
+      "type": "Video",
+      "shortCode": "DYOyGjhhnBU",
+      "caption": "While serving langar alongside people from all communities in Delhi, a Muslim volunteer named \"Nawab Khan\" was confronted by an extremist who questioned his identity and falsely accused him of contaminating the food after hearing his Muslim name.\n\nBut instead of staying silent, people from every community present stood together against the hate and openly supported the volunteer - proving that humanity and unity will always be stronger than division\n.\n.\nFollow @indianonfeed for daily updates \n.\nDisclaimer:. We do not own or claim rights to any videos, images, or audio used in this post; all content belongs to its respective owners and is shared strictly for news reporting, informational, educational, and commentary purposes under fair use as permitted by the Copyright Act. If you are the rightful owner and have any concerns\nregarding the use of your content, please contact\nus via DM or email so the matter can be\naddressed promptly\n#news #newsupdate #india #dehli",
+      "hashtags": [
+        "news",
+        "newsupdate",
+        "india",
+        "dehli"
+      ],
+      "mentions": [
+        "indianonfeed"
+      ],
+      "url": "https://www.instagram.com/p/DYOyGjhhnBU/",
+      "commentsCount": 9,
+      "firstComment": "",
+      "latestComments": [],
+      "dimensionsHeight": 1920,
+      "dimensionsWidth": 1080,
+      "displayUrl": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/671745173_855139173626132_1275983203135679328_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=104&ig_cache_key=Mzg5NTI3MTA4MDUwNzg5NTg5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_XL2oo6Cc8gQ7kNvwHlzL-z&_nc_oc=Adq2TvRpH1LRSyYbdDvmtfFQysGHLb39w7YiH__loxIRyK7tSa1ZWWX19OBxWegjZrE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_ss=7a3ba&oh=00_Af5wp02pDl4SKaCZ-hm4dcjZ5y5ZcJK3zsgepy7yW8Qpjw&oe=6A08D47D",
+      "images": [],
+      "videoUrl": "https://scontent-cph2-1.cdninstagram.com/o1/v/t2/f2/m86/AQNXDQUUwewUbn7vC1iTMrCa-f3uAspPRKy3RbWsYmxpit-GeN81qqNCA0xOOcMvJN8GSssNwmvV9QQtegOQnYr5zrMQmN686l4_MxA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_ohc=lcrjLUu71U0Q7kNvwEizQzo&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTc4MTIxMjg0NzY0MjI0LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=403da9c7102e9e8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GRDRFRTRCQjc1RTU0OEM4M0E1QzY0RkU0QUM1NTRCOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ4NEJEMUVEMjIyRUE5QzQ2QzcyMkM4RDRBRUY2MkJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAic67k-a8AxUCKAJDMywXQEDMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af533YAFiAJHcVNS-6iD9e5oSv7XUFZQHol08EWxGm1YOA&oe=6A04C477",
+      "likesCount": -1,
+      "videoPlayCount": 21860,
+      "igPlayCount": 21860,
+      "timestamp": "2026-05-12T07:57:58.000Z",
+      "childPosts": [],
+      "ownerFullName": "IndiGrid | Latest news",
+      "ownerUsername": "indianonfeed",
+      "ownerId": "21643163866",
+      "productType": "clips",
+      "videoDuration": 33.71500015258789,
+      "musicInfo": {
+        "artist_name": "Jodok Cello",
+        "song_name": "Experience",
+        "uses_original_audio": false,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "5577233358963543"
+      },
+      "ownerProfile": {
+        "username": "indianonfeed",
+        "full_name": "IndiGrid | Latest news",
+        "biography": "Daily headlines from India 🇮🇳\nInfotainment • Trends • Updates\nDM for credit & Removal",
+        "category_name": null,
+        "followers": 53,
+        "is_verified": false,
+        "external_url": null
+      },
+      "transcript": "ये पहले इसका नाम पूछ रहा है, क्या नाम है जी, तो ने कहा नवाब खान, फिर इससे शोर मचा दिया कि अंगुथा डाल के ये सबको लंगर खिला रहा है, कोई गरम गरम खिचड़ी में अंगुथा डाल के खिलाएगा, ये इंसान सुबह साड़े तीन वज़े सेवा कराने आ जाता है, और इतनी नफरत के अंदर कह रहे हो कि हम अंगुथा डा के खिला रहे हैं, ये भी मुसलिम है, सारे यहां हिंदू मुसलिम यहां सेवा चल रही है, बेशरम लोगों, ये इंसान है ये, ये देखो, ये.",
+      "indiaOriginAnalysis": {
+        "score": 14,
+        "min_india_score": 6,
+        "has_strong_evidence": true,
+        "strong_signal_sources": [
+          "caption",
+          "transcript"
+        ],
+        "weak_signal_sources": [
+          "bio",
+          "caption"
+        ],
+        "is_likely_indian_origin": true,
+        "matched_signals": [
+          "bio mentions generic India terms: india",
+          "bio mentions generic Indian location terms: india",
+          "caption mentions generic India terms: india",
+          "caption mentions Indian places: delhi",
+          "caption mentions generic Indian location terms: india",
+          "transcript uses Indic script: Devanagari"
+        ],
+        "location_analysis": {
+          "available": false,
+          "score": 0,
+          "strong_signal_count": 0,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        },
+        "caption_analysis": {
+          "available": true,
+          "score": 6,
+          "strong_signal_count": 1,
+          "weak_signal_count": 2,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [
+            "india"
+          ],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [
+            "india"
+          ],
+          "location_keyword_hits": [
+            "delhi",
+            "india"
+          ],
+          "specific_location_keyword_hits": [
+            "delhi"
+          ],
+          "generic_location_keyword_hits": [
+            "india"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "caption mentions generic India terms: india",
+            "caption mentions Indian places: delhi",
+            "caption mentions generic Indian location terms: india"
+          ]
+        },
+        "bio_analysis": {
+          "available": true,
+          "score": 2,
+          "strong_signal_count": 0,
+          "weak_signal_count": 2,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [
+            "india"
+          ],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [
+            "india"
+          ],
+          "location_keyword_hits": [
+            "india"
+          ],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [
+            "india"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "bio mentions generic India terms: india",
+            "bio mentions generic Indian location terms: india"
+          ]
+        },
+        "transcript_language_detection": {
+          "available": true,
+          "score": 6,
+          "detected_scripts": [
+            "Devanagari"
+          ],
+          "detected_language_hints": [
+            "Hindi",
+            "Marathi",
+            "Sanskrit"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "transcript uses Indic script: Devanagari"
+          ]
+        }
+      }
+    },
+    {
+      "inputUrl": "https://www.instagram.com/explore/tags/india",
+      "id": "3894809032365778503",
+      "type": "Video",
+      "shortCode": "DYNJC3qJSZH",
+      "caption": "If Dr. B. R. Ambedkar changed the destiny of millions, a big part of that strength came from Ramabai Ambedkar standing quietly beside him.\nHer support may have been silent, but its impact changed history forever.\n\n#RamabaiAmbedkar #JaiBhim #JayBhim #Ambedkar #BabasahebAmbedkar #AmbedkarJayanti #BhimJayanti #Equality #SocialJustice #ConstitutionOfIndia #Inspiration #Reels #ReelsInstagram #Trending #Viral #ExplorePage #India #Motivation #HistoricalReels #TrendingReels #ViralReels #EducateAgitateOrganizeedkar #AmbedkarJayanti #BhimJayanti #Equality #SocialJustice #ConstitutionOfIndia #Inspiration #Reels #ReelsInstagram #Trending #Viral #ExplorePage #India #Motivation #HistoricalReels #TrendingReels #ViralReels #EducateAgitateOrganize #Respect #Legacy #WomenBehindSuccess #InspirationalVideo #SupportSystem #realheroes",
+      "hashtags": [
+        "RamabaiAmbedkar",
+        "JaiBhim",
+        "JayBhim",
+        "Ambedkar",
+        "BabasahebAmbedkar",
+        "AmbedkarJayanti",
+        "BhimJayanti",
+        "Equality",
+        "SocialJustice",
+        "ConstitutionOfIndia",
+        "Inspiration",
+        "Reels",
+        "ReelsInstagram",
+        "Trending",
+        "Viral",
+        "ExplorePage",
+        "India",
+        "Motivation",
+        "HistoricalReels",
+        "TrendingReels",
+        "ViralReels",
+        "EducateAgitateOrganizeedkar",
+        "EducateAgitateOrganize",
+        "Respect",
+        "Legacy",
+        "WomenBehindSuccess",
+        "InspirationalVideo",
+        "SupportSystem",
+        "realheroes"
+      ],
+      "mentions": [],
+      "url": "https://www.instagram.com/p/DYNJC3qJSZH/",
+      "commentsCount": 7,
+      "firstComment": "",
+      "latestComments": [],
+      "dimensionsHeight": 1920,
+      "dimensionsWidth": 1080,
+      "displayUrl": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/671847129_1769408754222767_5182021851106957768_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=103&ig_cache_key=Mzg5NDgwOTAzMjM2NTc3ODUwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=w2WNG17QASIQ7kNvwF7aBp7&_nc_oc=AdrZT-uTQg6-vX2PpIXYTczSvLeC1SnGl0pY9h5I1fTa8P4UR9OdWJXS76one9yb5Ss&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_ss=7a3ba&oh=00_Af75NRiD7Z8Y4yCN2NCuSfCMw2FIo-84829e1nGaOa-VaA&oe=6A08C225",
+      "images": [],
+      "videoUrl": "https://scontent-cph2-1.cdninstagram.com/o1/v/t2/f2/m86/AQPCpK5QqbrlC0gZJZca5dL6wRpl8THgVw0gUXM2qvYCAb6UZVT833cIc72jVSa73UVpKpErf-B8HPqGao65N5xO4lCyxC1UkjRFcSQ.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_ohc=PX4dps_yBd0Q7kNvwEp4C5f&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ1OTA4NzA2MjY4MzY4OCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=66c392669de259b6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BRTRDRDgyNUQzMjg5RjQ5QTQ5REYxQTIyRkVFQjJCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0VFNERDMTE2QTMwMkI1NzFBQTA3OUZFOTEzRkUxNkEzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQwIrhhcKXBRUCKAJDMywXQDDVP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af6DCTwglxWzJ0f_9RTuumdsqi89w2u_H7M7Z4Q-jAJzHQ&oe=6A04F13A",
+      "likesCount": 3446,
+      "videoPlayCount": 24034,
+      "igPlayCount": 24034,
+      "timestamp": "2026-05-11T16:37:45.000Z",
+      "childPosts": [],
+      "locationName": "Shivaji Park Dadar West",
+      "locationId": "400982240693255",
+      "ownerFullName": "Ramani",
+      "ownerUsername": "ramaniratnapriya",
+      "ownerId": "61537467401",
+      "productType": "clips",
+      "videoDuration": 16.83300018310547,
+      "musicInfo": {
+        "artist_name": "Hiral Kamble",
+        "song_name": "Ghara Madhi Lavlay Diva Ramai Song Original (feat. Manjusha Shinde & DJ HK Style)",
+        "uses_original_audio": false,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "345788385027879"
+      },
+      "ownerProfile": {
+        "username": "ramaniratnapriya",
+        "full_name": "Ramani",
+        "biography": "Mumbai 📍",
+        "category_name": "Education",
+        "followers": 222,
+        "is_verified": false,
+        "external_url": null
+      },
+      "transcript": "बहोजनाच्या घरामदी लागलई दिवा.",
+      "indiaOriginAnalysis": {
+        "score": 12,
+        "min_india_score": 6,
+        "has_strong_evidence": true,
+        "strong_signal_sources": [
+          "bio",
+          "transcript"
+        ],
+        "weak_signal_sources": [
+          "caption"
+        ],
+        "is_likely_indian_origin": true,
+        "matched_signals": [
+          "bio mentions Indian places: mumbai",
+          "caption mentions generic India terms: india",
+          "caption mentions generic Indian location terms: india",
+          "transcript uses Indic script: Devanagari"
+        ],
+        "location_analysis": {
+          "available": true,
+          "score": 0,
+          "strong_signal_count": 0,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        },
+        "caption_analysis": {
+          "available": true,
+          "score": 2,
+          "strong_signal_count": 0,
+          "weak_signal_count": 2,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [
+            "india"
+          ],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [
+            "india"
+          ],
+          "location_keyword_hits": [
+            "india"
+          ],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [
+            "india"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "caption mentions generic India terms: india",
+            "caption mentions generic Indian location terms: india"
+          ]
+        },
+        "bio_analysis": {
+          "available": true,
+          "score": 4,
+          "strong_signal_count": 1,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [
+            "mumbai"
+          ],
+          "specific_location_keyword_hits": [
+            "mumbai"
+          ],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": [
+            "bio mentions Indian places: mumbai"
+          ]
+        },
+        "transcript_language_detection": {
+          "available": true,
+          "score": 6,
+          "detected_scripts": [
+            "Devanagari"
+          ],
+          "detected_language_hints": [
+            "Hindi",
+            "Marathi",
+            "Sanskrit"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "transcript uses Indic script: Devanagari"
+          ]
+        }
+      }
+    },
+    {
+      "inputUrl": "https://www.instagram.com/explore/tags/india",
+      "id": "3895197069247699045",
+      "type": "Video",
+      "shortCode": "DYOhRjKpthl",
+      "caption": "Follow more @gogoiakhapriya\n#fyp \n#trending \n#india \n#assam",
+      "hashtags": [
+        "fyp",
+        "trending",
+        "india",
+        "assam"
+      ],
+      "mentions": [
+        "gogoiakhapriya"
+      ],
+      "url": "https://www.instagram.com/p/DYOhRjKpthl/",
+      "commentsCount": 43,
+      "firstComment": "",
+      "latestComments": [],
+      "dimensionsHeight": 1920,
+      "dimensionsWidth": 1080,
+      "displayUrl": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/689460141_2232354820901340_8583210205383449032_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=105&ig_cache_key=Mzg5NTE5NzA2OTI0NzY5OTA0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=MZ_K2GRORIMQ7kNvwGgf56b&_nc_oc=AdrQtYl68f-XOYA8sg9LOYDaqKI6ZiHfRGHbTaA3Ex2cR_2nAzlzuRoJMxUeD8mssoE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_ss=7a3ba&oh=00_Af48yApan0iF6xZxXSquZG6JbSHaVSDsWgyjVcqkKjkGlw&oe=6A08DD1D",
+      "images": [],
+      "videoUrl": "https://scontent-cph2-1.cdninstagram.com/o1/v/t2/f2/m86/AQOJ3yGR9hzAw5WpDVGK9BxhN4O1xM31qCasJoz43udko0nndip58MtpehH2jxQBqo4S1FuCvZPq5B1BHGGgzEfqEvf-1lW9pJYo5eU.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_ohc=3JGrdyIuIbYQ7kNvwEOtu-y&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY2Mjk1NDY4MTYyMDQzMCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=56d60f2167a753dc&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BRTRGQjREQ0U2MUM1Q0QzMTFFRjUzOEU2NkE1QTdCMF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlDNEIyM0U4OUM1ODc3RkIxQkUxN0M3MDYxOUQwMThBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACac35rx2Zz0BRUCKAJDMywXQD3u2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af7373aDfLrtzybawZTDkdg_CUAj5aGn8RD9pZiAW_St6A&oe=6A04E165",
+      "likesCount": 393,
+      "videoPlayCount": 3598,
+      "igPlayCount": 3598,
+      "timestamp": "2026-05-12T05:30:12.000Z",
+      "childPosts": [],
+      "ownerFullName": "আখাপ্ৰীয়া !!",
+      "ownerUsername": "gogoiakhapriya",
+      "ownerId": "16865020679",
+      "productType": "clips",
+      "videoDuration": 30.04599952697754,
+      "taggedUsers": [
+        {
+          "full_name": "ARADHYAAAAAAAAAA......",
+          "id": "15615861181",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3892589876433469417",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/684551689_18127958155525182_7038570140719442019_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=1nPzY-HtZzgQ7kNvwHLfeqb&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GAluzSg_-FwqSGdAAGPoQERABq5hbmNDAQAB1501500j-ccb7-5&oh=00_Af6j3IeSeVnVG_oYIvu2_DVS843cHrrFPHfP0xH3JzrkGw&oe=6A08E627&_nc_sid=472314",
+          "username": "s.nwl_"
+        },
+        {
+          "full_name": "",
+          "id": "74443204255",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3895223152968046355",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/687025474_17887274976484256_8222653608263448891_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=_dNW1356r2kQ7kNvwHkfB-W&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GEIt8yigG-m_YYw-ADt5oCfkuxxybmNDAQAB1501500j-ccb7-5&oh=00_Af7nBBMRKNIHPmpy_4wtAsabLqe7bMxoX-qenZGZSlV7pw&oe=6A08D01F&_nc_sid=472314",
+          "username": "zyrobeast.rvaa"
+        },
+        {
+          "full_name": "PRIYASHREEE",
+          "id": "79557694543",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3864901049845519301",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/657849599_17860608165654544_886434260751396775_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=mXyJcVVYRBwQ7kNvwEZ2qBK&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GP-8NScQsC-lIHQ-AKev0nxDP00MbmNDAQAB1501500j-ccb7-5&oh=00_Af7Jn8-eV6d_qjTEJI_WQflIjqMZDu5uF20f9w2IhaVafw&oe=6A08C013&_nc_sid=472314",
+          "username": "dd.hzzaaaa"
+        },
+        {
+          "full_name": "🦠",
+          "id": "79976807431",
+          "is_private": false,
+          "is_verified": false,
+          "profile_pic_id": "3892389416828780915",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/695774736_17868997293671432_5841014449989483911_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=FADUDmJJBogQ7kNvwGh4zPG&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GBCueCkIhC4kwns-AIf9i-uxcw9RbmNDAQAB1501500j-ccb7-5&oh=00_Af7SkWWBZe_uPUKHpuxofWJy3MPhUFNCPjEy03GGVi8l4w&oe=6A08D9BA&_nc_sid=472314",
+          "username": "hazarika1naya_n"
+        }
+      ],
+      "musicInfo": {
+        "artist_name": "gogoiakhapriya",
+        "song_name": "Original audio",
+        "uses_original_audio": true,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "26012172691790371"
+      },
+      "coauthorProducers": [
+        {
+          "full_name": "",
+          "id": "74443204255",
+          "is_private": false,
+          "is_verified": false,
+          "pk": "74443204255",
+          "profile_pic_id": "3895223152968046355",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/687025474_17887274976484256_8222653608263448891_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=_dNW1356r2kQ7kNvwHkfB-W&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GEIt8yigG-m_YYw-ADt5oCfkuxxybmNDAQAB1501500j-ccb7-5&oh=00_Af7nBBMRKNIHPmpy_4wtAsabLqe7bMxoX-qenZGZSlV7pw&oe=6A08D01F&_nc_sid=472314",
+          "username": "zyrobeast.rvaa"
+        },
+        {
+          "full_name": "ARADHYAAAAAAAAAA......",
+          "id": "15615861181",
+          "is_private": false,
+          "is_verified": false,
+          "pk": "15615861181",
+          "profile_pic_id": "3892589876433469417",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/684551689_18127958155525182_7038570140719442019_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=1nPzY-HtZzgQ7kNvwHLfeqb&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GAluzSg_-FwqSGdAAGPoQERABq5hbmNDAQAB1501500j-ccb7-5&oh=00_Af6j3IeSeVnVG_oYIvu2_DVS843cHrrFPHfP0xH3JzrkGw&oe=6A08E627&_nc_sid=472314",
+          "username": "s.nwl_"
+        },
+        {
+          "full_name": "🦠",
+          "id": "79976807431",
+          "is_private": false,
+          "is_verified": false,
+          "pk": "79976807431",
+          "profile_pic_id": "3892389416828780915",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/695774736_17868997293671432_5841014449989483911_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=FADUDmJJBogQ7kNvwGh4zPG&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GBCueCkIhC4kwns-AIf9i-uxcw9RbmNDAQAB1501500j-ccb7-5&oh=00_Af7SkWWBZe_uPUKHpuxofWJy3MPhUFNCPjEy03GGVi8l4w&oe=6A08D9BA&_nc_sid=472314",
+          "username": "hazarika1naya_n"
+        },
+        {
+          "full_name": "PRIYASHREEE",
+          "id": "79557694543",
+          "is_private": false,
+          "is_verified": false,
+          "pk": "79557694543",
+          "profile_pic_id": "3864901049845519301",
+          "profile_pic_url": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-19/657849599_17860608165654544_886434260751396775_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gG5eoHPUVE9s4hoVUAca1uwZhgvxXBt_tEhFhb5XGLOjAUeKsMKcdjHgJ1MMtiXTEg&_nc_ohc=mXyJcVVYRBwQ7kNvwEZ2qBK&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&edm=AMKDjl4BAAAA&ccb=7-5&ig_cache_key=GP-8NScQsC-lIHQ-AKev0nxDP00MbmNDAQAB1501500j-ccb7-5&oh=00_Af7Jn8-eV6d_qjTEJI_WQflIjqMZDu5uF20f9w2IhaVafw&oe=6A08C013&_nc_sid=472314",
+          "username": "dd.hzzaaaa"
+        }
+      ],
+      "ownerProfile": {
+        "username": "gogoiakhapriya",
+        "full_name": "আখাপ্ৰীয়া !!",
+        "biography": "new plz support \n76k id hack ho gya 😫💔",
+        "category_name": "Reel creator",
+        "followers": 426,
+        "is_verified": false,
+        "external_url": null
+      },
+      "transcript": "හොසන මොයිනා කඳේර නයි පානෝත්තේ.",
+      "indiaOriginAnalysis": {
+        "score": 11,
+        "min_india_score": 6,
+        "has_strong_evidence": true,
+        "strong_signal_sources": [
+          "owner",
+          "caption"
+        ],
+        "weak_signal_sources": [
+          "caption"
+        ],
+        "is_likely_indian_origin": true,
+        "matched_signals": [
+          "owner uses Indic script: Bengali",
+          "caption mentions generic India terms: india",
+          "caption mentions Indian places: assam",
+          "caption mentions generic Indian location terms: india"
+        ],
+        "location_analysis": {
+          "available": false,
+          "score": 0,
+          "strong_signal_count": 0,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        },
+        "caption_analysis": {
+          "available": true,
+          "score": 6,
+          "strong_signal_count": 1,
+          "weak_signal_count": 2,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [
+            "india"
+          ],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [
+            "india"
+          ],
+          "location_keyword_hits": [
+            "assam",
+            "india"
+          ],
+          "specific_location_keyword_hits": [
+            "assam"
+          ],
+          "generic_location_keyword_hits": [
+            "india"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "caption mentions generic India terms: india",
+            "caption mentions Indian places: assam",
+            "caption mentions generic Indian location terms: india"
+          ]
+        },
+        "bio_analysis": {
+          "available": true,
+          "score": 0,
+          "strong_signal_count": 0,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        },
+        "transcript_language_detection": {
+          "available": true,
+          "score": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        }
+      }
+    },
+    {
+      "inputUrl": "https://www.instagram.com/explore/tags/india",
+      "id": "3894717268124705879",
+      "type": "Video",
+      "shortCode": "DYM0LhjJyRX",
+      "caption": "Noise takes you away from the truth. It also happens to make you uglier. \n.\n.\n.\n#diabetes #india #beauty #skincare #health",
+      "hashtags": [
+        "diabetes",
+        "india",
+        "beauty",
+        "skincare",
+        "health"
+      ],
+      "mentions": [],
+      "url": "https://www.instagram.com/p/DYM0LhjJyRX/",
+      "commentsCount": 31,
+      "firstComment": "",
+      "latestComments": [],
+      "dimensionsHeight": 1920,
+      "dimensionsWidth": 1080,
+      "displayUrl": "https://scontent-cph2-1.cdninstagram.com/v/t51.71878-15/691546784_2106275576895560_3835613608213319490_n.jpg?stp=dst-jpg_e15_p360x360_tt6&_nc_cat=102&ig_cache_key=Mzg5NDcxNzI2ODEyNDcwNTg3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=X9lQcrE9sbwQ7kNvwFnoAHp&_nc_oc=Adrnyh7Oly8X9TVrslVXb9cH2q66s7SPkrEoWMii5dpBwtWwg7gEl3iPH9EvrZ_vP_o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_ss=7a3ba&oh=00_Af5njdObapof-7D4xgx7NKvZo-nXcsGi7koWu_C3ctOmXg&oe=6A08B681",
+      "images": [],
+      "videoUrl": "https://scontent-cph2-1.cdninstagram.com/o1/v/t2/f2/m86/AQPi8UTNHLpdJ6w05qLt2k4FosgT32Eq9DMR9cf59ALt7NQ4Xqwpa2w7SF4_kcCgNAq4NeDhDuYkIBd59oeeb6CD9AByCJkqhLZo7pE.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_ohc=fXun0i7-tFUQ7kNvwHtuSVS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTY1MzY3Mzc5NjMwNzEzLCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEzOCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=468166d9dc7beca2&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84RTQ2NDAyNTQ5NkQ3RTlBMjk3NTQ3RDdCRkVCNTRBOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzZENEFBOUUzMEM0M0RDMjIwMTQxRjRENzU5QUM5ODg2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACby6ey74_-2AxUCKAJDMywXQGFDMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZjqG942uiIa-zElgUG6A1Q&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af4tRIWrzlU34AwhPq8kcD8mIF1bDi4o25niKK9Oub9_Pg&oe=6A04D3DB",
+      "likesCount": 326,
+      "videoPlayCount": 5258,
+      "igPlayCount": 5258,
+      "timestamp": "2026-05-11T13:38:30.000Z",
+      "childPosts": [],
+      "locationName": "Mumbai, Maharashtra",
+      "locationId": "114759761873412",
+      "ownerFullName": "Karran Kevin Kharas",
+      "ownerUsername": "preferthetruth",
+      "ownerId": "182438690",
+      "productType": "clips",
+      "videoDuration": 138.10000610351562,
+      "musicInfo": {
+        "artist_name": "preferthetruth",
+        "song_name": "Original audio",
+        "uses_original_audio": true,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "26701283486203314"
+      },
+      "ownerProfile": {
+        "username": "preferthetruth",
+        "full_name": "Karran Kevin Kharas",
+        "biography": "The one who has Peace wins\nEvery religion has truth, but The Truth has no religion\nOptimise hormones through nutrition and circadian alignment(DM)",
+        "category_name": null,
+        "followers": 96951,
+        "is_verified": false,
+        "external_url": "https://youtu.be/E0i702w96q0"
+      },
+      "transcript": "You know, noise pollution is going to affect you even if you think it doesn't affect you, if you think that the noise is something that you're not aware of. But as long as it's landing on your eardrum, it's going to have an effect on you. And you know, it's especially, it's going to make certain things that Indians are prone to, it's going to make it even worse. For example, diabetes. When you have all these noises all around you, your cortisol level is going to be elevated chronically. When you have an elevated cortisol level, combine that with a high carb diet as the average Indian actually eats all the time. You are combining cortisol with insulin, which is literally a recipe for diabetes. It's not a coincidence that Indians are the diabetic capital of this world. Okay, if you talk about it being genetic, and yes, there is a slight genetic component to it. But these things don't help because you need an environment to allow you to reach your genetic potential. And Indians also happen to be one of the least impressive physically out of all the races or whatever types of people in the world. We are known to be the least impressive in terms of physicality, whether that's in terms, especially the men. Okay, like maybe that's something that's just happened recently. It never was that way. But most Indian men are not known to be that great. In fact, if you want to compliment an Indian, just tell them they don't look Indian. They'll take it as a compliment. They all know what I'm talking about. But the environment has a lot to do. If you're going to live with this, you're not going to look your best. And cortisol is a stress hormone, is going to make it harder for you to fall asleep, to make it harder for you to absorb your food correctly, absorb glucose. It's going to make it harder for you to even breathe correctly. And eventually is going to literally make you uglier, to put it just bluntly. So it's for our own good if we just try to reduce the amount of noise, all sorts of pollution. We can do it. We can do it. This country has enormous potential. And the only reason it is what it is right now is because of simple ignorance. Peace.",
+      "indiaOriginAnalysis": {
+        "score": 9,
+        "min_india_score": 6,
+        "has_strong_evidence": true,
+        "strong_signal_sources": [
+          "location",
+          "transcript"
+        ],
+        "weak_signal_sources": [
+          "caption"
+        ],
+        "is_likely_indian_origin": true,
+        "matched_signals": [
+          "location mentions Indian places: maharashtra, mumbai",
+          "caption mentions generic India terms: india",
+          "caption mentions generic Indian location terms: india",
+          "transcript mentions India identity terms: indian"
+        ],
+        "location_analysis": {
+          "available": true,
+          "score": 4,
+          "strong_signal_count": 1,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [
+            "maharashtra",
+            "mumbai"
+          ],
+          "specific_location_keyword_hits": [
+            "maharashtra",
+            "mumbai"
+          ],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": [
+            "location mentions Indian places: maharashtra, mumbai"
+          ]
+        },
+        "caption_analysis": {
+          "available": true,
+          "score": 2,
+          "strong_signal_count": 0,
+          "weak_signal_count": 2,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [
+            "india"
+          ],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [
+            "india"
+          ],
+          "location_keyword_hits": [
+            "india"
+          ],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [
+            "india"
+          ],
+          "language_keyword_hits": [],
+          "reasons": [
+            "caption mentions generic India terms: india",
+            "caption mentions generic Indian location terms: india"
+          ]
+        },
+        "bio_analysis": {
+          "available": true,
+          "score": 0,
+          "strong_signal_count": 0,
+          "weak_signal_count": 0,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "identity_keyword_hits": [],
+          "strong_identity_keyword_hits": [],
+          "weak_identity_keyword_hits": [],
+          "location_keyword_hits": [],
+          "specific_location_keyword_hits": [],
+          "generic_location_keyword_hits": [],
+          "language_keyword_hits": [],
+          "reasons": []
+        },
+        "transcript_language_detection": {
+          "available": true,
+          "score": 3,
+          "detected_scripts": [],
+          "detected_language_hints": [],
+          "language_keyword_hits": [],
+          "reasons": [
+            "transcript mentions India identity terms: indian"
+          ]
+        }
+      }
+    }
+  ]
+}
