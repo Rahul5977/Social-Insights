@@ -1,0 +1,137 @@
+---
+alwaysApply: true
+---
+
+description: SuperLiving Insights — system architecture, schema, and build state
+alwaysApply: true
+---
+
+# SuperLiving Insights — Architecture Reference
+
+Internal Instagram Reels analytics product for the Indian healthcare niche.
+Frontend is built (Next.js 15, App Router). Backend is being built now.
+
+## Product surface (already built in frontend)
+
+5 pages, all reading from `src/lib/mock-data.ts` today. Goal: replace mocks
+with real API calls without changing component shapes.
+
+- `/dashboard` — Exploding Now, Trending Topics, Top Reels, Rising Hashtags,
+  Velocity Chart, Top Creators, Trending Audio, Posting Heatmap, Activity Chart
+- `/explore` — filterable/sortable reel list, URL-as-state, CSV export
+- `/hashtags?tags=a,b,c&compare=true` — deep dive on 1–3 hashtags
+- `/trends` — Topic Velocity, Hook Leaderboard, Audio Trends, Posting Heatmap, Pain Phrases
+- `/creators` and `/creators/[handle]` — list + profile views
+
+Type contracts live in `src/lib/types.ts`. **The backend response shapes must
+match these types exactly.** Do not change types without explicit approval.
+
+## 4-layer architecture
+
+### Layer 1: Frontend (Next.js 15)
+- App Router, server components by default
+- URL params are the source of truth for Explore + Hashtags filter state
+- React Query (or SWR) for data fetching with revalidation
+- No state management library — URL + server state is enough
+
+### Layer 2: Backend API
+- Framework: **Hono on Node** (or FastAPI if Python preferred — pick one and stick)
+- All endpoints return JSON matching `src/lib/types.ts`
+- Routes:
+  - `POST /api/fetch` — trigger ingestion job
+  - `GET  /api/fetch/:jobId` — poll job status
+  - `GET  /api/dashboard?window=24h&topic=all`
+  - `GET  /api/reels?window=&hashtags=&sort=&page=&...`
+  - `GET  /api/hashtags?names=a,b,c`
+  - `GET  /api/trends?window=24h`
+  - `GET  /api/creators?type=Doctor`
+  - `GET  /api/creators/:handle`
+
+### Layer 3: Workers (BullMQ on Redis)
+Pipeline runs in stages, NOT inline with API requests:
+1. **Scraper** — pulls reels from Apify Instagram Hashtag actor per seed tag
+2. **Normalizer** — parses raw JSON, dedupes by `short_code`, applies India filter,
+   upserts creators/reels/reel_hashtags
+3. **LLM Tagger** — async batch worker fills `hook_type`, `topic_id`, `theme`
+   for reels where `hook_type IS NULL`
+4. **Metrics Calculator** — computes `engagement_rate` per reel
+5. **Hashtag Discovery** — promotes new tags `seed → watch → promoted → rejected`
+6. **Aggregator** — recomputes rollup tables after every ingest
+
+### Layer 4: Storage
+- **PostgreSQL** — primary store, see schema below
+- **Redis** — BullMQ queue + cache (TTL by sensitivity)
+- **S3/R2** — raw scraper payloads (audit trail), thumbnails
+
+## Database schema
+
+### Core tables
+- `reels` (id, short_code UNIQUE, creator_id FK, caption, likes, comments, views,
+  engagement_rate, hook_type, topic_id FK, posted_at, duration_s, music_id,
+  thumbnail_url, scraped_at)
+- `creators` (id, ig_owner_id UNIQUE, handle UNIQUE, display_name, bio, followers,
+  following, creator_type ENUM(doctor|influencer|brand), avatar_color, avg_likes,
+  avg_engagement, is_india)
+- `hashtags` (id, name UNIQUE, first_seen_at, pool_status ENUM(seed|watch|promoted|rejected),
+  promoted_at, total_apps, avg_likes, india_ratio, domain)
+- `reel_hashtags` (reel_id FK, hashtag_id FK, PK both) — M:N junction
+- `topics` (id, name, slug UNIQUE, color, domain, active)
+- `ingestion_jobs` (id, status, window, limit, started_at, finished_at, counts JSONB)
+
+### Rollup tables (recomputed on every ingest, NOT live)
+- `hashtag_daily_counts` (hashtag_id, day, reel_count, avg_likes, avg_views, india_count) PK (hashtag_id, day)
+- `topic_daily_velocity` (topic_id, day, reel_count, avg_eng, velocity_pct) PK (topic_id, day)
+- `posting_heatmap` (scope, scope_id NULL, day_of_week 0-6, hour 0-23, reel_count)
+
+### LLM-derived tables
+- `pain_phrases` (id, phrase, domain, frequency, reel_count, first_seen)
+- `audio_tracks` (id text PK = audio_id, name, artist, usage_count, avg_views, growth_pct)
+- `related_hashtags` (a_hashtag_id, b_hashtag_id, cooccurrence 0-1, trend ENUM) PK (a, b)
+
+## Cache TTLs (Redis keys)
+
+- Dashboard JSON: `dash:{window}:{topic}` → **TTL 60s**
+- Hashtag deep dive: `hashtag:{name}:{window}` → **TTL 5 min**
+- Trends 14-day velocity: `trends:{window}` → **TTL 15 min**
+- Invalidate ALL cache keys when an ingestion job completes.
+
+## Non-obvious design decisions (READ BEFORE SUGGESTING CHANGES)
+
+1. **URL-as-state for Explore/Hashtags.** Filter state lives in query params,
+   not React state. Enables sharing, refresh-safe, easy analytics. Do not move
+   this to client-side state.
+
+2. **Rollup tables, not live aggregates.** Dashboard queries hit
+   `hashtag_daily_counts`, `topic_daily_velocity`, `posting_heatmap` — NOT the
+   raw `reels` table. Without rollups, dashboard becomes slow at ~50k reels.
+
+3. **Hashtag pool lifecycle.** `seed → watch → promoted → rejected`. Discovery
+   worker only promotes tags appearing in ≥N distinct reels within 24h. Do not
+   auto-add every new hashtag to the scrape pool.
+
+4. **LLM tagging is async, not inline.** Scrape returns instantly. LLM tags
+   fill in seconds-to-minutes later. UI must handle `hook_type IS NULL`
+   (render "—" or "pending").
+
+5. **Fetch Now is fire-and-forget.** Returns 202 + jobId immediately. Frontend
+   polls `GET /api/fetch/:jobId` every 2s. Don't make the API wait for the
+   pipeline to finish.
+
+## Hook type enum (LLM output, strict)
+
+`myth_bust`, `result_first`, `stop_doing`, `social_taana`, `emotional_confession`,
+`visual_object`, `comparison`. No other values allowed. Reject LLM output
+that doesn't match.
+
+## Build checkpoints (current state in PROGRESS.md)
+
+1. Foundation — Postgres + Redis up, schema migrated, seeds loaded
+2. Scrape one hashtag — one Apify run → one clean row in reels
+3. Fetch Now button — POST /api/fetch wired end-to-end
+4. LLM tagging — async batch worker fills hook_type/topic_id
+5. Aggregations + rollups — rollup tables populated after each ingest
+6. Dashboard endpoint — GET /api/dashboard with 9 parallel queries, cached
+7. Explore + Hashtag pages — filtered/sorted queries, hashtag deep dive
+8. Trends + Creators + polish — remaining pages, cron, auth, error tracking
+
+Always check `@PROGRESS.md` for current checkpoint before suggesting work.

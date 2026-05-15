@@ -1,0 +1,111 @@
+---
+alwaysApply: true
+---
+---
+description: Coding conventions, stack constraints, and anti-hallucination rules
+alwaysApply: true
+---
+
+# Conventions & Constraints
+
+## Stack (do not substitute without asking)
+
+- **Frontend**: Next.js 15 (App Router), TypeScript strict, Tailwind, Recharts,
+  React Query for data fetching
+- **Backend**: Hono on Node 20+, TypeScript strict
+- **DB**: PostgreSQL 16+, accessed via Drizzle ORM (or Kysely if preferred)
+- **Queue + cache**: Redis 7+, BullMQ for jobs
+- **Scraper**: Apify SDK (Instagram Hashtag Scraper actor)
+- **LLM**: OpenAI GPT-4o-mini for tagging, structured output mode (JSON schema)
+- **Object store**: Cloudflare R2 (S3-compatible)
+- **Hosting**: Vercel (frontend) + Railway/Fly (API + workers + DB)
+
+## Anti-hallucination rules (most important)
+
+1. **Never invent library APIs.** If unsure whether a function exists, ask or
+   read the actual import. Cursor has `@docs` — use it.
+2. **Never invent file contents.** Reference files with `@path/to/file` instead
+   of guessing what's inside.
+3. **Never change `src/lib/types.ts` shapes.** The frontend depends on these.
+   If you need a new field, propose adding it — don't silently rename.
+4. **Never invent column names.** The schema is in `@migrations/`. Read it
+   before writing SQL.
+5. If you don't know something, say "I'm not sure" instead of guessing.
+   Wrong code costs more than a clarifying question.
+
+## Naming
+
+- **SQL**: snake_case for tables and columns (`hashtag_daily_counts`, `posted_at`)
+- **TypeScript**: camelCase for variables, PascalCase for types/components
+- **API JSON**: camelCase in responses (map at the API boundary, not in components)
+- **Files**: kebab-case for routes (`hashtag-data.ts`), PascalCase for components
+- **Env vars**: SCREAMING_SNAKE_CASE
+
+## TypeScript
+
+- Strict mode on, no `any` unless wrapped in a typed boundary
+- Prefer `type` over `interface` for response shapes
+- Inputs to route handlers validated with **Zod** before doing anything
+- DB queries return typed rows via Drizzle's inferred types — never `unknown`
+
+## API conventions
+
+- All endpoints return `{ data: ... }` on success or `{ error: { code, message } }` on failure
+- HTTP codes used correctly: 200 success, 201 create, 202 accepted (async), 400 validation, 401 auth, 404 not found, 500 server
+- Pagination is `{ rows, page, pageSize, total, totalPages }` — never offset/limit in response
+- Time windows are strings: `"6h" | "24h" | "7d" | "30d"` (matches frontend `TimeWindow` type)
+- Cursor-based pagination only if dataset > 10k rows; otherwise page+pageSize is fine
+
+## SQL discipline
+
+- Every query that filters by `posted_at` MUST use an index — check `EXPLAIN`
+- Joins always specify the join condition explicitly (no comma joins)
+- Aggregates on `reels` table only for windows ≤ 24h. For longer windows, hit rollup tables.
+- Use `ILIKE` for case-insensitive search; for caption full-text, use the `tsvector` column + GIN index
+- Migrations are forward-only. Never edit a shipped migration; add a new one.
+
+## Worker discipline
+
+- Every job has retry config: `attempts: 3, backoff: exponential, removeOnComplete: 100`
+- Jobs are idempotent — re-running the same job must not duplicate rows
+  (use `INSERT ... ON CONFLICT` upserts)
+- Long-running stages emit progress to `ingestion_jobs.counts` JSONB so the
+  frontend can show "scraped 234 / tagged 180 / ..."
+- Errors logged with the jobId, not just stack trace
+
+## LLM tagging discipline
+
+- Always use OpenAI structured output mode with a strict JSON schema
+- Schema enum for `hook_type` matches the frontend list exactly
+- If output fails schema validation, mark the reel as `hook_type='unknown'` and
+  log to Sentry — never silently insert garbage
+- Batch size 20 reels per call, max 5 concurrent calls (rate-limit safety)
+- Cost guardrail: if daily LLM spend > $20, pause the tagger worker
+
+## Frontend conventions
+
+- All data fetched server-side via React Server Components when possible
+- Client-side fetching only for filter-driven pages (Explore, Hashtags) where URL
+  changes trigger refetch — use React Query
+- Components in `src/components/*` are pure presentational. Data fetching lives
+  in `src/app/*/page.tsx` or in custom hooks like `useDashboard()`.
+- Do NOT add new third-party UI libraries — the design system is set.
+- Loading states: skeleton placeholders matching the final layout, not spinners.
+- Empty states: always include one. Never let a chart render with no data.
+
+## What to do when stuck
+
+1. Re-read the file you're editing — don't guess.
+2. Use `@web` to search for the actual library docs.
+3. Write a failing test that reproduces the issue before fixing it.
+4. If touching more than 2 files, stop and write a one-paragraph plan first.
+5. Ask the human before doing schema changes, dependency additions, or
+   architectural shifts.
+
+## What never to do
+
+- Don't add `console.log` to "shipped" code. Use a real logger (`pino`).
+- Don't catch errors silently. Either handle or rethrow with context.
+- Don't introduce a new ORM, framework, or library without checking with human.
+- Don't refactor unrelated code while doing a feature. Separate PRs.
+- Don't write code that "should work" without running it.
