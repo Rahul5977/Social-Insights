@@ -1,31 +1,25 @@
 # Build Progress
 
-## Current checkpoint: 1 — Foundation
+## Current checkpoint: 2 — Scrape one hashtag
 
 ## Done
-- Frontend with mock data complete
-- LLD designed (8 diagrams)
-- Cursor rules files created
+- docker-compose.yml at repo root
+- Postgres 16 + Redis 7 running in Docker
+- superliving-backend created with Hono + Drizzle + Zod + Pino
+- 5 tables migrated: creators, hashtags, reels, reel_hashtags, ingestion_jobs
+- 3 enums: hook_type, creator_type, job_status
+- /health returns ok, /debug/schema shows all zeros (correct)
+- No seed data — everything discovered from Instagram
 
-## In progress
-- Postgres + Redis setup
-- Initial schema migration
+## Decisions made
+- No topics table — topic is a free-text LLM output on the reels row
+- No hashtag pool — hashtags extracted from captions automatically
+- Only hardcoded value: BOOTSTRAP_SEARCH_TERMS in scraper config (not in DB)
 
-## Blocked on
-- (nothing yet)
-
-## Next steps
-- Write migration: 001_creators_reels_hashtags.sql
-- Write migration: 002_topics_rollups.sql
-- Write migration: 003_jobs_pool.sql
-- Seed script: 6 topics + 40 seed hashtags
-- Verify schema with `psql \dt` and one test insert
-
-## Decisions log
-- 2026-05-15: Picked Hono over FastAPI (TS everywhere, simpler deploy)
-- 2026-05-15: Picked Drizzle over Prisma (lighter, better SQL escape hatch)
-- 2026-05-15: Picked R2 over S3 (cheaper egress for thumbnail serving)
-
-## Open questions
-- Do we need a separate `comments` table or is `first_comment` on reels enough?
-- Apify rate limits — check with their support before scaling to 40 tags
+## Next steps (Checkpoint 2)
+- Set up Apify account, get API token
+- Write scraper that hits Instagram explore for "health" + "wellness"
+- Extract all hashtags from captions
+- Write normalizer: upsert creators + reels + reel_hashtags
+- India filter: is_india = bio or caption contains India signals
+- Verify one complete reel row in DB with correct fields
